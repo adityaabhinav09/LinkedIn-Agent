@@ -1,0 +1,729 @@
+{
+  "metadata": {
+    "total_days": 90,
+    "description": "90-day AI learning journey from basics to advanced",
+    "created_at": "2026-01-18"
+  },
+  "curriculum": [
+    {
+      "day": 1,
+      "topic": "What is Artificial Intelligence?",
+      "category": "Fundamentals",
+      "difficulty": "Beginner",
+      "key_points": ["Definition of AI", "Human vs Machine Intelligence", "AI in daily life"],
+      "story_angle": "A day in the life showing hidden AI interactions"
+    },
+    {
+      "day": 2,
+      "topic": "The History of AI - From Dreams to Reality",
+      "category": "Fundamentals",
+      "difficulty": "Beginner",
+      "key_points": ["Turing Test", "AI Winter", "Modern AI Renaissance"],
+      "story_angle": "Time travel through AI milestones"
+    },
+    {
+      "day": 3,
+      "topic": "Types of AI - Narrow, General, and Super",
+      "category": "Fundamentals",
+      "difficulty": "Beginner",
+      "key_points": ["ANI examples", "AGI dreams", "ASI speculation"],
+      "story_angle": "Three siblings with different capabilities"
+    },
+    {
+      "day": 4,
+      "topic": "Machine Learning vs Traditional Programming",
+      "category": "Fundamentals",
+      "difficulty": "Beginner",
+      "key_points": ["Rule-based vs Learning", "Pattern recognition", "Data importance"],
+      "story_angle": "Teaching a child vs programming a robot"
+    },
+    {
+      "day": 5,
+      "topic": "The Data Revolution - Fuel for AI",
+      "category": "Fundamentals",
+      "difficulty": "Beginner",
+      "key_points": ["Big Data", "Data quality", "Data sources"],
+      "story_angle": "Data as the new oil - a mining expedition"
+    },
+    {
+      "day": 6,
+      "topic": "Algorithms - The Recipe for Intelligence",
+      "category": "Fundamentals",
+      "difficulty": "Beginner",
+      "key_points": ["What are algorithms", "Decision making", "Optimization"],
+      "story_angle": "A master chef's secret recipes"
+    },
+    {
+      "day": 7,
+      "topic": "Understanding Neural Networks - Brain Inspired Computing",
+      "category": "Fundamentals",
+      "difficulty": "Beginner",
+      "key_points": ["Neurons and connections", "Layers", "Learning process"],
+      "story_angle": "Building a brain from scratch"
+    },
+    {
+      "day": 8,
+      "topic": "Supervised Learning - Learning with a Teacher",
+      "category": "Machine Learning",
+      "difficulty": "Beginner",
+      "key_points": ["Labeled data", "Classification", "Regression"],
+      "story_angle": "A student preparing for exams with answer keys"
+    },
+    {
+      "day": 9,
+      "topic": "Unsupervised Learning - Finding Hidden Patterns",
+      "category": "Machine Learning",
+      "difficulty": "Beginner",
+      "key_points": ["Clustering", "Dimensionality reduction", "Anomaly detection"],
+      "story_angle": "A detective solving mysteries without clues"
+    },
+    {
+      "day": 10,
+      "topic": "Reinforcement Learning - Learning by Doing",
+      "category": "Machine Learning",
+      "difficulty": "Beginner",
+      "key_points": ["Rewards and penalties", "Trial and error", "Game playing AI"],
+      "story_angle": "A child learning to ride a bicycle"
+    },
+    {
+      "day": 11,
+      "topic": "Linear Regression - Predicting the Future",
+      "category": "Machine Learning",
+      "difficulty": "Beginner",
+      "key_points": ["Line of best fit", "Continuous predictions", "Real-world applications"],
+      "story_angle": "A fortune teller with mathematics"
+    },
+    {
+      "day": 12,
+      "topic": "Classification - Sorting the World",
+      "category": "Machine Learning",
+      "difficulty": "Beginner",
+      "key_points": ["Binary classification", "Multi-class", "Decision boundaries"],
+      "story_angle": "A postal worker sorting mail"
+    },
+    {
+      "day": 13,
+      "topic": "Decision Trees - Making Choices Like Humans",
+      "category": "Machine Learning",
+      "difficulty": "Beginner",
+      "key_points": ["If-then rules", "Tree structure", "Interpretability"],
+      "story_angle": "A game of 20 questions"
+    },
+    {
+      "day": 14,
+      "topic": "Random Forests - Wisdom of the Crowd",
+      "category": "Machine Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Ensemble learning", "Voting mechanism", "Reducing overfitting"],
+      "story_angle": "A council of wise elders making decisions"
+    },
+    {
+      "day": 15,
+      "topic": "Support Vector Machines - Drawing Perfect Lines",
+      "category": "Machine Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Hyperplanes", "Margin maximization", "Kernel trick"],
+      "story_angle": "Building the perfect fence between neighbors"
+    },
+    {
+      "day": 16,
+      "topic": "K-Nearest Neighbors - Birds of a Feather",
+      "category": "Machine Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Distance metrics", "Voting by neighbors", "Choosing K"],
+      "story_angle": "Moving to a new neighborhood"
+    },
+    {
+      "day": 17,
+      "topic": "Clustering with K-Means - Grouping Without Labels",
+      "category": "Machine Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Centroid-based clustering", "Iterative refinement", "Applications"],
+      "story_angle": "Organizing a massive library without categories"
+    },
+    {
+      "day": 18,
+      "topic": "Dimensionality Reduction - Simplifying Complexity",
+      "category": "Machine Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["PCA", "Feature selection", "Curse of dimensionality"],
+      "story_angle": "Packing for a trip with limited luggage"
+    },
+    {
+      "day": 19,
+      "topic": "Feature Engineering - The Art of Data Crafting",
+      "category": "Machine Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Feature creation", "Domain knowledge", "Data transformation"],
+      "story_angle": "A sculptor revealing the statue within the stone"
+    },
+    {
+      "day": 20,
+      "topic": "Model Evaluation - Measuring Success",
+      "category": "Machine Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Accuracy, Precision, Recall", "F1 Score", "Confusion matrix"],
+      "story_angle": "A teacher grading an unusual exam"
+    },
+    {
+      "day": 21,
+      "topic": "Overfitting vs Underfitting - The Goldilocks Problem",
+      "category": "Machine Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Bias-variance tradeoff", "Regularization", "Cross-validation"],
+      "story_angle": "Finding the perfect fit - like Cinderella's shoe"
+    },
+    {
+      "day": 22,
+      "topic": "Cross-Validation - Testing with Confidence",
+      "category": "Machine Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["K-fold validation", "Data splitting", "Reliable estimates"],
+      "story_angle": "A chef tasting dishes multiple times"
+    },
+    {
+      "day": 23,
+      "topic": "Gradient Descent - The Mountain Climber",
+      "category": "Deep Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Optimization", "Learning rate", "Local minima"],
+      "story_angle": "Finding the lowest valley while blindfolded"
+    },
+    {
+      "day": 24,
+      "topic": "Backpropagation - Learning from Mistakes",
+      "category": "Deep Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Error propagation", "Chain rule", "Weight updates"],
+      "story_angle": "A team relay race improving together"
+    },
+    {
+      "day": 25,
+      "topic": "Activation Functions - The Decision Makers",
+      "category": "Deep Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["ReLU, Sigmoid, Tanh", "Non-linearity", "Vanishing gradients"],
+      "story_angle": "Different doorkeepers with different rules"
+    },
+    {
+      "day": 26,
+      "topic": "Deep Neural Networks - Going Deeper",
+      "category": "Deep Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Multiple layers", "Hierarchical learning", "Representation learning"],
+      "story_angle": "Building a skyscraper of knowledge"
+    },
+    {
+      "day": 27,
+      "topic": "Convolutional Neural Networks - Seeing Like Humans",
+      "category": "Deep Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Convolution operation", "Filters", "Pooling"],
+      "story_angle": "An artist learning to see patterns"
+    },
+    {
+      "day": 28,
+      "topic": "Image Classification with CNNs",
+      "category": "Computer Vision",
+      "difficulty": "Intermediate",
+      "key_points": ["ImageNet", "Transfer learning", "Real-world applications"],
+      "story_angle": "Teaching a machine to identify a cat"
+    },
+    {
+      "day": 29,
+      "topic": "Object Detection - Finding Things in Images",
+      "category": "Computer Vision",
+      "difficulty": "Intermediate",
+      "key_points": ["Bounding boxes", "YOLO", "R-CNN"],
+      "story_angle": "A treasure hunter with X-ray vision"
+    },
+    {
+      "day": 30,
+      "topic": "Image Segmentation - Pixel Perfect Understanding",
+      "category": "Computer Vision",
+      "difficulty": "Intermediate",
+      "key_points": ["Semantic segmentation", "Instance segmentation", "U-Net"],
+      "story_angle": "Coloring within the lines - pixel by pixel"
+    },
+    {
+      "day": 31,
+      "topic": "Recurrent Neural Networks - Memory in Machines",
+      "category": "Deep Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Sequential data", "Hidden states", "Time series"],
+      "story_angle": "A storyteller who remembers everything"
+    },
+    {
+      "day": 32,
+      "topic": "LSTM - Long-Term Memory Networks",
+      "category": "Deep Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Gates mechanism", "Long-term dependencies", "Forget gate"],
+      "story_angle": "A librarian with perfect memory management"
+    },
+    {
+      "day": 33,
+      "topic": "Sequence to Sequence Models",
+      "category": "Deep Learning",
+      "difficulty": "Intermediate",
+      "key_points": ["Encoder-decoder", "Machine translation", "Variable length"],
+      "story_angle": "A universal translator's journey"
+    },
+    {
+      "day": 34,
+      "topic": "Attention Mechanism - Focus on What Matters",
+      "category": "Deep Learning",
+      "difficulty": "Advanced",
+      "key_points": ["Attention weights", "Context vectors", "Selective focus"],
+      "story_angle": "A spotlight operator at a theater"
+    },
+    {
+      "day": 35,
+      "topic": "Transformers - Attention is All You Need",
+      "category": "Deep Learning",
+      "difficulty": "Advanced",
+      "key_points": ["Self-attention", "Parallel processing", "Positional encoding"],
+      "story_angle": "A revolutionary new way of understanding language"
+    },
+    {
+      "day": 36,
+      "topic": "BERT - Understanding Context Deeply",
+      "category": "NLP",
+      "difficulty": "Advanced",
+      "key_points": ["Bidirectional encoding", "Pre-training", "Fine-tuning"],
+      "story_angle": "Reading a book forwards and backwards simultaneously"
+    },
+    {
+      "day": 37,
+      "topic": "GPT - The Art of Prediction",
+      "category": "NLP",
+      "difficulty": "Advanced",
+      "key_points": ["Autoregressive models", "Text generation", "Few-shot learning"],
+      "story_angle": "A prophet who completes your sentences"
+    },
+    {
+      "day": 38,
+      "topic": "Word Embeddings - Meaning in Numbers",
+      "category": "NLP",
+      "difficulty": "Intermediate",
+      "key_points": ["Word2Vec", "Semantic relationships", "Vector space"],
+      "story_angle": "Mapping the geography of language"
+    },
+    {
+      "day": 39,
+      "topic": "Sentiment Analysis - Understanding Emotions",
+      "category": "NLP",
+      "difficulty": "Intermediate",
+      "key_points": ["Positive/Negative classification", "Opinion mining", "Social media analysis"],
+      "story_angle": "An emotion detective on social media"
+    },
+    {
+      "day": 40,
+      "topic": "Named Entity Recognition - Finding Important Things",
+      "category": "NLP",
+      "difficulty": "Intermediate",
+      "key_points": ["Entity types", "Sequence labeling", "Information extraction"],
+      "story_angle": "A highlighter that knows what's important"
+    },
+    {
+      "day": 41,
+      "topic": "Text Summarization - The Art of Brevity",
+      "category": "NLP",
+      "difficulty": "Intermediate",
+      "key_points": ["Extractive vs Abstractive", "Key information", "Compression"],
+      "story_angle": "A wise sage who speaks only essentials"
+    },
+    {
+      "day": 42,
+      "topic": "Question Answering Systems",
+      "category": "NLP",
+      "difficulty": "Advanced",
+      "key_points": ["Reading comprehension", "Knowledge retrieval", "Factual accuracy"],
+      "story_angle": "The all-knowing oracle of the digital age"
+    },
+    {
+      "day": 43,
+      "topic": "Machine Translation - Breaking Language Barriers",
+      "category": "NLP",
+      "difficulty": "Advanced",
+      "key_points": ["Neural MT", "Language pairs", "BLEU score"],
+      "story_angle": "Building the Tower of Babel - correctly this time"
+    },
+    {
+      "day": 44,
+      "topic": "Generative Adversarial Networks - The Artist and Critic",
+      "category": "Generative AI",
+      "difficulty": "Advanced",
+      "key_points": ["Generator vs Discriminator", "Adversarial training", "Image generation"],
+      "story_angle": "An art forger vs an art detective"
+    },
+    {
+      "day": 45,
+      "topic": "Variational Autoencoders - Learning to Compress",
+      "category": "Generative AI",
+      "difficulty": "Advanced",
+      "key_points": ["Latent space", "Reconstruction", "Generative modeling"],
+      "story_angle": "A master of compression and recreation"
+    },
+    {
+      "day": 46,
+      "topic": "Diffusion Models - Creating from Noise",
+      "category": "Generative AI",
+      "difficulty": "Advanced",
+      "key_points": ["Denoising", "Iterative refinement", "Stable Diffusion"],
+      "story_angle": "Sculpting beauty from chaos"
+    },
+    {
+      "day": 47,
+      "topic": "DALL-E and Image Generation",
+      "category": "Generative AI",
+      "difficulty": "Advanced",
+      "key_points": ["Text-to-image", "Creative AI", "Multimodal learning"],
+      "story_angle": "The artist who paints from words"
+    },
+    {
+      "day": 48,
+      "topic": "Style Transfer - Painting Like the Masters",
+      "category": "Computer Vision",
+      "difficulty": "Intermediate",
+      "key_points": ["Content and style", "Neural style transfer", "Artistic filters"],
+      "story_angle": "Teaching machines to paint like Van Gogh"
+    },
+    {
+      "day": 49,
+      "topic": "Face Recognition - Identity in the Digital Age",
+      "category": "Computer Vision",
+      "difficulty": "Intermediate",
+      "key_points": ["Face detection", "Facial landmarks", "Recognition systems"],
+      "story_angle": "The bouncer who never forgets a face"
+    },
+    {
+      "day": 50,
+      "topic": "Pose Estimation - Understanding Body Language",
+      "category": "Computer Vision",
+      "difficulty": "Intermediate",
+      "key_points": ["Keypoint detection", "Human pose", "Action recognition"],
+      "story_angle": "A dance instructor who sees in skeleton form"
+    },
+    {
+      "day": 51,
+      "topic": "Speech Recognition - Hearing Machines",
+      "category": "Audio AI",
+      "difficulty": "Intermediate",
+      "key_points": ["Audio processing", "Transcription", "Voice assistants"],
+      "story_angle": "The secretary who never misses a word"
+    },
+    {
+      "day": 52,
+      "topic": "Text-to-Speech - Giving Voice to Machines",
+      "category": "Audio AI",
+      "difficulty": "Intermediate",
+      "key_points": ["Speech synthesis", "Natural prosody", "Voice cloning"],
+      "story_angle": "Teaching robots to speak with emotion"
+    },
+    {
+      "day": 53,
+      "topic": "Reinforcement Learning Deep Dive - Agents and Environments",
+      "category": "Reinforcement Learning",
+      "difficulty": "Advanced",
+      "key_points": ["MDP", "Policy", "Value functions"],
+      "story_angle": "A video game character learning to win"
+    },
+    {
+      "day": 54,
+      "topic": "Q-Learning - Learning Action Values",
+      "category": "Reinforcement Learning",
+      "difficulty": "Advanced",
+      "key_points": ["Q-values", "Exploration vs Exploitation", "Bellman equation"],
+      "story_angle": "A treasure map that updates itself"
+    },
+    {
+      "day": 55,
+      "topic": "Deep Q-Networks - Combining Deep Learning and RL",
+      "category": "Reinforcement Learning",
+      "difficulty": "Advanced",
+      "key_points": ["Experience replay", "Target networks", "Atari games"],
+      "story_angle": "The AI that mastered arcade games"
+    },
+    {
+      "day": 56,
+      "topic": "Policy Gradient Methods",
+      "category": "Reinforcement Learning",
+      "difficulty": "Advanced",
+      "key_points": ["Direct policy optimization", "REINFORCE", "Actor-Critic"],
+      "story_angle": "Learning the best strategy, not just good moves"
+    },
+    {
+      "day": 57,
+      "topic": "AlphaGo - The Game Changer",
+      "category": "Reinforcement Learning",
+      "difficulty": "Advanced",
+      "key_points": ["Monte Carlo Tree Search", "Self-play", "Human-level performance"],
+      "story_angle": "The day AI defeated the Go master"
+    },
+    {
+      "day": 58,
+      "topic": "Multi-Agent Reinforcement Learning",
+      "category": "Reinforcement Learning",
+      "difficulty": "Advanced",
+      "key_points": ["Cooperation", "Competition", "Emergent behavior"],
+      "story_angle": "A society of learning robots"
+    },
+    {
+      "day": 59,
+      "topic": "Transfer Learning - Standing on Giants' Shoulders",
+      "category": "Advanced ML",
+      "difficulty": "Intermediate",
+      "key_points": ["Pre-trained models", "Domain adaptation", "Fine-tuning"],
+      "story_angle": "Inheriting knowledge from predecessors"
+    },
+    {
+      "day": 60,
+      "topic": "Few-Shot Learning - Learning from Little",
+      "category": "Advanced ML",
+      "difficulty": "Advanced",
+      "key_points": ["Meta-learning", "Prototypical networks", "Data efficiency"],
+      "story_angle": "The prodigy who learns from one example"
+    },
+    {
+      "day": 61,
+      "topic": "Zero-Shot Learning - Imagination in AI",
+      "category": "Advanced ML",
+      "difficulty": "Advanced",
+      "key_points": ["Attribute-based learning", "Semantic embeddings", "Generalization"],
+      "story_angle": "Recognizing things you've never seen"
+    },
+    {
+      "day": 62,
+      "topic": "Self-Supervised Learning - Learning Without Labels",
+      "category": "Advanced ML",
+      "difficulty": "Advanced",
+      "key_points": ["Pretext tasks", "Contrastive learning", "Representation learning"],
+      "story_angle": "The autodidact who creates their own curriculum"
+    },
+    {
+      "day": 63,
+      "topic": "Federated Learning - Privacy-Preserving AI",
+      "category": "Advanced ML",
+      "difficulty": "Advanced",
+      "key_points": ["Distributed training", "Data privacy", "Edge devices"],
+      "story_angle": "Learning together while keeping secrets"
+    },
+    {
+      "day": 64,
+      "topic": "Large Language Models - The New Frontier",
+      "category": "LLMs",
+      "difficulty": "Advanced",
+      "key_points": ["Scale", "Emergent abilities", "ChatGPT"],
+      "story_angle": "When size creates intelligence"
+    },
+    {
+      "day": 65,
+      "topic": "Prompt Engineering - The Art of Asking",
+      "category": "LLMs",
+      "difficulty": "Intermediate",
+      "key_points": ["Prompt design", "In-context learning", "Chain of thought"],
+      "story_angle": "The translator between humans and AI"
+    },
+    {
+      "day": 66,
+      "topic": "Fine-Tuning LLMs - Customizing Giants",
+      "category": "LLMs",
+      "difficulty": "Advanced",
+      "key_points": ["LoRA", "Instruction tuning", "Domain adaptation"],
+      "story_angle": "Teaching an expert to specialize"
+    },
+    {
+      "day": 67,
+      "topic": "Retrieval Augmented Generation (RAG)",
+      "category": "LLMs",
+      "difficulty": "Advanced",
+      "key_points": ["Vector databases", "Context injection", "Knowledge grounding"],
+      "story_angle": "The AI that reads before it speaks"
+    },
+    {
+      "day": 68,
+      "topic": "AI Agents - Autonomous Problem Solvers",
+      "category": "Agents",
+      "difficulty": "Advanced",
+      "key_points": ["Tool use", "Planning", "Multi-step reasoning"],
+      "story_angle": "The digital assistant that takes action"
+    },
+    {
+      "day": 69,
+      "topic": "LangChain and Agent Frameworks",
+      "category": "Agents",
+      "difficulty": "Advanced",
+      "key_points": ["Chains", "Tools", "Memory"],
+      "story_angle": "Building blocks for intelligent applications"
+    },
+    {
+      "day": 70,
+      "topic": "Multi-Modal AI - Seeing, Hearing, Understanding",
+      "category": "Multimodal",
+      "difficulty": "Advanced",
+      "key_points": ["Vision-language models", "Cross-modal learning", "GPT-4V"],
+      "story_angle": "The AI that experiences the world fully"
+    },
+    {
+      "day": 71,
+      "topic": "Video Understanding - AI Watching Movies",
+      "category": "Multimodal",
+      "difficulty": "Advanced",
+      "key_points": ["Temporal modeling", "Action recognition", "Video captioning"],
+      "story_angle": "The critic who watches everything"
+    },
+    {
+      "day": 72,
+      "topic": "Robotics and Embodied AI",
+      "category": "Robotics",
+      "difficulty": "Advanced",
+      "key_points": ["Perception-action loop", "Manipulation", "Navigation"],
+      "story_angle": "When AI gets a body"
+    },
+    {
+      "day": 73,
+      "topic": "Autonomous Vehicles - AI on Wheels",
+      "category": "Robotics",
+      "difficulty": "Advanced",
+      "key_points": ["Sensor fusion", "Path planning", "Safety systems"],
+      "story_angle": "The chauffeur who never sleeps"
+    },
+    {
+      "day": 74,
+      "topic": "Explainable AI - Opening the Black Box",
+      "category": "AI Ethics",
+      "difficulty": "Intermediate",
+      "key_points": ["Interpretability", "SHAP values", "Feature importance"],
+      "story_angle": "The AI that shows its work"
+    },
+    {
+      "day": 75,
+      "topic": "AI Bias and Fairness",
+      "category": "AI Ethics",
+      "difficulty": "Intermediate",
+      "key_points": ["Training data bias", "Algorithmic fairness", "Mitigation strategies"],
+      "story_angle": "The mirror that reflects our prejudices"
+    },
+    {
+      "day": 76,
+      "topic": "AI Privacy and Security",
+      "category": "AI Ethics",
+      "difficulty": "Intermediate",
+      "key_points": ["Data protection", "Adversarial attacks", "Model security"],
+      "story_angle": "Guardians of the digital realm"
+    },
+    {
+      "day": 77,
+      "topic": "AI Regulation and Governance",
+      "category": "AI Ethics",
+      "difficulty": "Intermediate",
+      "key_points": ["EU AI Act", "Guidelines", "Industry standards"],
+      "story_angle": "Writing rules for digital minds"
+    },
+    {
+      "day": 78,
+      "topic": "Neural Architecture Search - AI Designing AI",
+      "category": "AutoML",
+      "difficulty": "Advanced",
+      "key_points": ["Architecture optimization", "Search strategies", "Efficient NAS"],
+      "story_angle": "The architect that designs architects"
+    },
+    {
+      "day": 79,
+      "topic": "AutoML - Automated Machine Learning",
+      "category": "AutoML",
+      "difficulty": "Advanced",
+      "key_points": ["Hyperparameter optimization", "Model selection", "Democratizing ML"],
+      "story_angle": "The ML engineer that never sleeps"
+    },
+    {
+      "day": 80,
+      "topic": "Knowledge Graphs - Connecting the Dots",
+      "category": "Knowledge",
+      "difficulty": "Intermediate",
+      "key_points": ["Entity relationships", "Reasoning", "Graph neural networks"],
+      "story_angle": "The web of all human knowledge"
+    },
+    {
+      "day": 81,
+      "topic": "Neuro-Symbolic AI - Best of Both Worlds",
+      "category": "Advanced AI",
+      "difficulty": "Advanced",
+      "key_points": ["Logic and learning", "Symbolic reasoning", "Hybrid systems"],
+      "story_angle": "Marrying intuition with logic"
+    },
+    {
+      "day": 82,
+      "topic": "Quantum Machine Learning - The Next Frontier",
+      "category": "Emerging",
+      "difficulty": "Advanced",
+      "key_points": ["Quantum computing basics", "Quantum advantage", "Current limitations"],
+      "story_angle": "Computing in parallel universes"
+    },
+    {
+      "day": 83,
+      "topic": "Edge AI - Intelligence at the Periphery",
+      "category": "Deployment",
+      "difficulty": "Intermediate",
+      "key_points": ["Model compression", "Edge devices", "Latency"],
+      "story_angle": "Bringing intelligence to your pocket"
+    },
+    {
+      "day": 84,
+      "topic": "MLOps - Productionizing AI",
+      "category": "Deployment",
+      "difficulty": "Intermediate",
+      "key_points": ["CI/CD for ML", "Model monitoring", "Deployment strategies"],
+      "story_angle": "The factory that produces intelligence"
+    },
+    {
+      "day": 85,
+      "topic": "AI in Healthcare - Healing with Intelligence",
+      "category": "Applications",
+      "difficulty": "Intermediate",
+      "key_points": ["Diagnosis", "Drug discovery", "Personalized medicine"],
+      "story_angle": "The doctor that never forgets"
+    },
+    {
+      "day": 86,
+      "topic": "AI in Finance - The Smart Money",
+      "category": "Applications",
+      "difficulty": "Intermediate",
+      "key_points": ["Trading algorithms", "Fraud detection", "Risk assessment"],
+      "story_angle": "The analyst with perfect memory"
+    },
+    {
+      "day": 87,
+      "topic": "AI in Creative Arts - The Digital Muse",
+      "category": "Applications",
+      "difficulty": "Intermediate",
+      "key_points": ["Music generation", "Art creation", "Collaborative creativity"],
+      "story_angle": "When machines dream in color"
+    },
+    {
+      "day": 88,
+      "topic": "The Path to AGI - Dreams and Challenges",
+      "category": "Future",
+      "difficulty": "Advanced",
+      "key_points": ["AGI requirements", "Current gaps", "Research directions"],
+      "story_angle": "The quest for true intelligence"
+    },
+    {
+      "day": 89,
+      "topic": "AI Safety and Alignment",
+      "category": "Future",
+      "difficulty": "Advanced",
+      "key_points": ["Value alignment", "Control problem", "Beneficial AI"],
+      "story_angle": "Teaching values to machines"
+    },
+    {
+      "day": 90,
+      "topic": "The Future of AI - What Lies Ahead",
+      "category": "Future",
+      "difficulty": "Advanced",
+      "key_points": ["Predictions", "Opportunities", "Responsibilities"],
+      "story_angle": "Our collective journey into the AI future"
+    }
+  ]
+}
